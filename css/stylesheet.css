@@ -7,12 +7,15 @@ body {
     font-family: Merriweather, sans-serif;
     margin-left: 20%;
     margin-right: 20%;
+    background-color:azure; /*Placeholder color*/
 }
 
 nav ul a {
     display: inline-flex;
-    text-align:center;
-    margin-left: 5%;
     text-decoration: none; /*Removes the underline from nav bar.*/
-    font-size: 2.24rem;
+    font-size: 2.1rem;
+    margin-right:5%;
+}
+.navbar {
+    margin-left:-5%; /*Moves the alignment of the text to the left to match the page.*/
 }
