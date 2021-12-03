@@ -5,4 +5,14 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Aleo');
 body {
     font-family: Merriweather, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+nav ul a {
+    display: inline-flex;
+    text-align:center;
+    margin-left: 5%;
+    text-decoration: none; /*Removes the underline from nav bar.*/
+    font-size: 2.24rem;
 }
