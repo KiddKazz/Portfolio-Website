@@ -1,0 +1,8 @@
+/*
+* Used google API to import the Merriweather and Aleo fonts.
+* Merriweather seems good to use for regular paragraphs with its nice readability.
+*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Aleo');
+body {
+    font-family: Merriweather, sans-serif;
+}
