@@ -7,15 +7,67 @@ body {
     font-family: Merriweather, sans-serif;
     margin-left: 20%;
     margin-right: 20%;
-    background-color:azure; /*Placeholder color*/
+    font-weight: 300;
+    background-color: #fff;
+    display: block;
+    width: auto;
+}
+body a {
+    text-decoration: none;
 }
 
+div {
+    display: block;
+}
+html {
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    line-height: 1.6;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    display: block;
+}
+
+p {
+    font-size: 1.6rem;
+    font-family: Aleo, sans-serif;
+}
+
+
 nav ul a {
-    display: inline-flex;
     text-decoration: none; /*Removes the underline from nav bar.*/
-    font-size: 2.1rem;
-    margin-right:5%;
+    font-size: 1.6rem;
+}
+/* Header Customization */
+.header {
+    display: flex;
+    margin-bottom: 60px;
+}
+.header-section-nav {
+    align-self: center;
+    width: 100%;
 }
 .navbar {
-    margin-left:-5%; /*Moves the alignment of the text to the left to match the page.*/
+    /*margin-left:-4%; /*Moves the alignment of the text to the left to match the page.*/
+    font-size: 1.12rem;
+    
+}
+.navitem:not(:last-child) {
+    margin-right: 4.8%;
+}
+.page {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Wrap*/
+.wrap{
+    max-width: 1024px;
+    padding: 80px 30px;
+    width: 100%;
+}
+.floatleft{
+    float: left;
 }
