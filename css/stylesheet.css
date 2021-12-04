@@ -4,13 +4,13 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Aleo');
 body {
-    font-family: Merriweather, sans-serif;
+    font-family: Merriweather, sans-serif;/*Imported from googleAPI */
     margin-left: 20%;
     margin-right: 20%;
-    font-weight: 300;
     background-color: #fff;
     display: block;
     width: auto;
+    font-weight: 300;
 }
 body a {
     text-decoration: none;
@@ -29,16 +29,22 @@ html {
     padding: 0;
     display: block;
 }
+h1 {
+    font-size: 2.2em;
+    box-shadow: 0px 10px purple;
+}
 
 p {
-    font-size: 1.6rem;
-    font-family: Aleo, sans-serif;
+    font-size: 1.4rem;
+    font-family: Aleo, sans-serif; /* Imported from googleAPI*/
+    line-height: 175%;
+    font-weight:normal;
 }
 
 
 nav ul a {
     text-decoration: none; /*Removes the underline from nav bar.*/
-    font-size: 1.6rem;
+    font-size: 1.7rem;
 }
 /* Header Customization */
 .header {
@@ -70,4 +76,25 @@ nav ul a {
 }
 .floatleft{
     float: left;
+    background-color:purple;
+    color: whitesmoke;
+}
+/*These control the images at the bottom of the homepage.*/
+.home-images {
+    padding-top: 50px;
+    display: flex;
+    width: auto;
+}
+.home-left-image{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: palegoldenrod;
+}
+.home-right-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: palegoldenrod;
 }
