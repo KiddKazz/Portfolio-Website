@@ -20,7 +20,6 @@ div {
     display: block;
 }
 html {
-    border: 0;
     box-sizing: border-box;
     font-size: 100%;
     line-height: 1.6;
@@ -58,9 +57,9 @@ nav ul a {
 .navbar {
     /*margin-left:-4%; /*Moves the alignment of the text to the left to match the page.*/
     font-size: 1.12rem;
-    
+    width: 100%;
 }
-.navitem:not(:last-child) {
+.nav-item:not(:last-child) {
     margin-right: 4.8%;
 }
 .page {
@@ -68,33 +67,31 @@ nav ul a {
     margin-right: auto;
 }
 
-/*Wrap*/
+/*Wraps the whole page.*/
 .wrap{
     max-width: 1024px;
     padding: 80px 30px;
     width: 100%;
 }
-.floatleft{
+.float-left{
     float: left;
-    background-color:purple;
-    color: whitesmoke;
+    border: inset purple;
+    border-radius: 5%;
 }
 /*These control the images at the bottom of the homepage.*/
 .home-images {
     padding-top: 50px;
     display: flex;
-    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
 }
 .home-left-image{
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    background-color: palegoldenrod;
+    background-color: palegoldenrod; /*Just here as a placeholder*/
+    padding-right: 20%; /*Creates space between images on homepage.*/
 }
 .home-right-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    background-color: palegoldenrod;
+    background-color: yellow; /*Just here as a placeholder*/
+    padding-left: 30%; /*Creates space between images on homepage.
 }
