@@ -15,6 +15,7 @@ body {
 body p a {
     color:rgba(122, 16, 143, 0.822);
 }
+
 div {
     display: block;
 }
@@ -31,6 +32,9 @@ h1 {
     font-size: 2.2em;
     box-shadow: 0px 10px purple;
 }
+hr {
+    color: blueviolet;
+}
 
 p {
     font-size: 1.4rem;
@@ -40,12 +44,11 @@ p {
 }
 
 /* Navigation customization */ 
-nav a:link {
-    color:green;
-}
-
 nav a:visited {
     color: purple;
+}
+nav a:link {
+    color:green;
 }
 nav a:hover{
     color:green;
@@ -95,11 +98,11 @@ nav ul a {
 /*These control the images at the bottom of the homepage.*/
 .home-images {
     padding-top: 50px;
-    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     text-align: center;
+    display: flex; /*Change this later for mobile screens*/
 }
 .home-left-image{
     background-color: palegoldenrod; /*Just here as a placeholder*/
