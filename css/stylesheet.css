@@ -12,11 +12,9 @@ body {
     width: auto;
     font-weight: 300;
 }
-body a {
-    text-decoration: none;
+body p a {
+    color:rgba(122, 16, 143, 0.822);
 }
-
-
 div {
     display: block;
 }
@@ -42,17 +40,17 @@ p {
 }
 
 /* Navigation customization */ 
-a:link {
+nav a:link {
     color:green;
 }
 
-a:visited {
+nav a:visited {
     color: purple;
 }
-a:hover{
+nav a:hover{
     color:green;
 }
-a:active {
+nav a:active {
     color: black;
 }
 
